@@ -1,0 +1,30 @@
+
+<div class="row">
+	<div class="fb-part col-xs-2 btn-facebook">
+		<div id="fb-root"></div>
+		<div id="facebook-button" class="social-button">
+			<div class="fb-share-button "
+				data-href="{{urlToShare}}" data-layout="button" data-size="small" data-mobile-iframe="true">
+				<a class="fb-xfbml-parse-ignore" target="_blank"
+				href="https://www.facebook.com/sharer/sharer.php?u={{urlToShare_encoded}}">
+					<img src="./resources/buttons/facebook.png"
+				 	 alt="Facebook share button" />
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="twitter-part col-xs-2">
+		<div id="twitter-button" class="social-button">
+			<a href="https://twitter.com/intent/tweet?url={{urlToShare_encoded}}"
+		  	class=" btn-twitter"
+			data-text="J'ai créé mon candidat à la présidentielle avec le Candidatron ! !">
+			<img src="./resources/buttons/twitter.png"
+			alt="Twitter share button" />
+		</a> 
+		</div>
+	</div>
+
+	<div class="part-permalink col-xs-8" id="permalink">	
+	 	<input id="permalink" value="{{urlToShare}}" onclick="this.focus(); this.select();" type="text"/>
+	</div>
+</div>

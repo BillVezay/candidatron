@@ -1,0 +1,89 @@
+[{
+	    "ID": "0",
+	    "firstname" : "Nathalie",
+	    "lastname" : "Arthaud",
+	    "urlname" : "arthaud",
+	    "slogan": "Faire entendre/le camp des travailleurs",
+	    "party": "Lutte/Ouvrière"
+	  },
+	  {
+	    "ID" : "1",
+	    "firstname" : "François",
+	    "lastname" : "Asselineau",
+	    "urlname" : "asselineau",
+	    "slogan" : "Un choix/historique",
+	    "party": "Union Populaire/Républicaine"
+	  },
+	  {
+	    "ID" : "2",
+	    "firstname" : "Jacques",
+	    "lastname" : "Cheminade",
+	    "urlname" : "cheminade",
+	    "slogan" : "Se libérer/de l'occupation financère",
+	    "party": "Solidarité et/progrès"
+	  },
+	  {
+	    "ID": "3",
+	    "firstname" : "Nicolas",
+	    "lastname" : "Dupont-Aignan",
+	    "urlname" : "dupontaignan",
+	    "slogan": "Debout/la République !",
+	    "party": "Debout/la France !"
+	  },
+	  {
+	    "ID" : "4",
+	    "firstname" : "François",
+	    "lastname" : "Fillon",
+	    "urlname" : "fillon",
+	    "slogan" : "Une volonté/pour la France",
+	    "party": "Les/Républicains"
+	  },  
+	  {
+	    "ID": "5",
+	    "firstname" : "Benoît",
+	    "lastname" : "Hamon",
+	    "urlname" : "hamon",
+	    "slogan": "Faire battre le cœur de/la France",
+	    "party": "Parti/Socialiste"
+	  },
+	  {
+	    "ID": "6",
+	    "firstname" : "Jean",
+	    "lastname" : "Lassalle",
+	    "urlname" : "lassalle",
+	    "slogan": "Le temps/est venu",
+	    "party": "Résistons/!"
+	  },
+	  {
+	    "ID": "7",
+	    "firstname" : "Marine",
+	    "lastname" : "Le Pen",
+	    "urlname" : "lepen",
+	    "slogan": "Remettre la France/en ordre",
+	    "party": "Front/National"
+	  },
+	  {
+	    "ID" : "8",
+	    "firstname" : "Emmanuel",
+	    "lastname" : "Macron",
+	    "urlname" : "macron",
+	    "slogan" : "La France doit être/une chance pour tous",
+	    "party": "En/marche !"
+	  },
+	  {
+	    "ID" : "9",
+	    "firstname" : "Jean-Luc",
+	    "lastname" : "Mélenchon",
+	    "urlname" : "melenchon",
+	    "slogan" : "La force/du peuple",
+	    "party": "La France/insoumise"
+	},
+	{
+		"ID" : "10",
+	    "firstname" : "Philippe",
+	    "lastname" : "Poutou",
+	    "urlname" : "poutou",
+	    "slogan" : "Nos vies,/pas leurs profits",
+	    "party": "Nouveau Parti/Anticapitaliste"
+	}
+]

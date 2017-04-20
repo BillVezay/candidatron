@@ -1,0 +1,91 @@
+<!doctype html>
+  <head>
+    <meta charset="utf-8">
+    <title>Candidatron</title>
+    <meta name="description" content="Générez votre propre candidat !">
+
+<script src="https://use.fontawesome.com/15e07be532.js"></script>
+<link rel="icon" type="image/png" href="./resources/favicon.png" />
+
+
+
+
+
+  </head>
+  <body ng-app="candidatronApp" ng-controller="candidatronController">
+
+
+      <section id="home_button">
+                        <i class="fa fa-arrow-left"></i>
+        <a href = "http://www.billvezay.fr">
+          Accueil
+        </a>
+      </section>
+
+      <section id="header" ng-include="'./views/header.html'" >
+      </section>
+
+
+      <section id="main_layout">
+        <div class="main_content">
+
+          <section id ="candidate_mixed" ng-include="'./views/candidate.html'"></section>
+
+          <section id="candidates_composite" class="row">
+             <div class="candidate-composite col-xs-3 col-xs-offset-2"
+            ng-include="'./views/candidate_composite.html'"
+             ng-repeat="currentPosition in [0]">
+            </div>
+            <div id="spacer-switch" class="col-xs-2">
+              <a class="btn btn-default btn-sm" ng-click="triggerSwitchCandidates()">
+                <i class="fa fa-exchange"></i>
+                <span class="text">Échanger</span>
+              </a>
+            </div>
+            <div class="candidate-composite col-xs-3"
+            ng-include="'./views/candidate_composite.html'"
+             ng-repeat="currentPosition in [1]">
+            </div>
+          </section>
+   <section id="sharesection" class="candidate-composite"
+            ng-include="'./views/sharesection.html'">
+          </section>
+
+        </div>
+
+      </section>
+
+       
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+        <!-- Angular Material requires Angular.js Libraries -->
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>
+
+  <!-- Angular Material Library -->
+  <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
+
+
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+   <script src="./scripts/main.js"></script>
+      <script src="./scripts/google-analytics.js"></script>
+
+<link rel="stylesheet" href="./css/main.css">
+
+  <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
+
+  </body>
+</html>

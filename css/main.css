@@ -1,0 +1,306 @@
+
+
+
+
+
+/* OVERALL LAYOUT */
+
+
+
+
+
+body {
+  	background : url('../resources/background.png');
+	background-size: cover;
+	background-position: center;
+}
+
+
+
+
+#main_layout {
+   	padding : 25px;
+   	text-align: center;
+ 
+
+}
+
+#footer {
+	height: 50px ;
+	background-color : red;
+}
+
+
+
+
+#main_layout .main_content {
+	height: 100%;
+	width: 500px;
+	display: inline-block;
+}
+
+
+#candidate_mixed {
+	width: 300px;
+	padding: 10px;
+	background-color : #3993DD;
+	
+	border-radius: 5px;
+
+	margin: auto;
+	color : #EBEBEB ;
+}
+
+
+
+#candidates_composite {
+	height: 300px;
+	margin : 20px -200px 10px -200px;
+}
+
+#candidates_composite .candidate-composite {
+	background-color : #EBEBEB;
+	
+	border-radius: 5px;
+
+	padding: 10px 5px 10px 5px;
+	}
+
+
+
+/* END OF */
+/* OVERALL LAYOUT */
+
+/* HEADER */
+#header {
+
+	background-color: rgb(89,195,195);
+	background-color: rgba(89,195,195,0.4);
+	height: 70px;
+	border-bottom: 2px solid black;
+}
+
+#header_content {
+
+	height: auto;
+	padding: 5px 0 5px 0;
+	text-align: center;
+	font-size: 25px;
+}
+
+#header .subtext{
+	font-size: 15px;
+	font-style: italic;
+	margin-bottom: 10px;
+}
+/* END OF */
+/* HEADER */
+
+/*HOME BUTTON */
+
+#home_button {
+	height: 30px;
+	position: absolute;
+	top : 20px;
+	left: 25px;
+	font-size: 20px;
+}
+
+/* END OF*/
+/* HOME BUTTON */
+
+
+/* CANDIDATE MIXED */
+
+	#candidate_mixed .candidate-name {
+		font-size: 18px;
+		font-weight	: bold; 
+	}
+
+	#candidate_mixed .candidate-picture {
+		width: auto;
+		height: 240px;
+
+		margin: 5px 0 5px 0;
+
+		border-radius: 5px;
+		border: 1px solid black;
+	}
+
+	#candidate_mixed .candidate-party {
+		font-size: 16px;
+		margin: 5px 0 5px 0;
+	}
+
+	#candidate_mixed .candidate-slogan {
+		font-size: 18px;
+	}
+
+/* END OF */
+/* CANDIDATE MIXED */
+
+
+
+/* CANDIDATE COMPOSITE */
+
+
+	.candidate-wrapper {
+		border : 1px black solid;
+		border-radius: 2px;
+	}
+
+	.candidate-composite .candidate-picture {
+		width : auto;
+		height : 120px;
+	}
+
+	.candidate-composite .candidate-slogan p{
+		margin : 5px;
+	}
+
+	.candidate-composite .candidate-slogan p{
+		font-size : 14px;
+		font-weight: bold;
+	}
+
+	.candidate-composite .candidate-slogan span {
+		line-height: auto;
+	}
+
+	.candidate-composite .candidate-party {
+		font-size : 14px;
+	}
+
+	.candidate-composite .btn {
+		font-size: 14px;
+	}
+
+
+	.dropdown {
+		width: 80%;
+		font-size: 14px;
+		margin : 0 
+	}
+
+
+/* END OF */
+/* CANDIDATE COMPOSITE */
+
+
+
+/* SPACER SWITCH */
+	#spacer-switch {
+		height: 100%;
+		display: flex;
+		justify-content : center;
+	}
+
+	#spacer-switch .btn {
+		font-size: 16px;
+		align-self : center;
+		border: 0;
+	}
+/* END OF */
+/* SPACER SWITCH */
+
+
+/* SHARESECTION */
+
+.social-button img{
+	height: 40px;
+}
+
+#sharesection {
+	background-color : rgba(89,195,195,0.5);
+	padding: 5px 0px 5px 10px;
+	border-radius: 10px;
+}
+
+text {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#permalink {
+	width: 300px;
+	margin-top: 4px;
+}
+/* END OF */
+/* SHARESECTION */
+
+/* FOOTER */
+
+
+
+/* END OF */
+/* FOOTER */
+
+.btn:focus {
+  outline: none;
+}
+
+
+.btn {
+	background-color: #59C3C3;
+}
+
+.btn .text {
+}
+
+#spacer {
+	height: 20px;
+}
+
+
+
+
+
+
+
+.candidate-slogan p {
+	line-height: 40px;
+	text-align:center;
+
+	font-weight: bold;
+}
+
+.candidate-slogan span {
+	vertical-align:middle;
+	display:inline-block;
+	line-height:1.2; /* on rétablit le line-height */
+	text-align:center; /* ... et l'alignement du texte */ 
+}
+
+
+#candidate-mixed .candidate-slogan span {
+	width: 80%
+}
+
+.md-button {
+	margin-top : 10px;
+}
+
+.md-ripple-container {
+	height: 15px;
+}
+
+
+.btn {
+	font-size: 16px;
+}
+
+0 5px 0;
+}
+
+.btn .text {
+	margin-left: 5px;
+	font-style: calibri;
+}
+
+
+#sharesection {
+	margin: auto;
+}
+
+
+
