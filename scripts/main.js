@@ -8,8 +8,8 @@ angular
 
 
     var configData = {
-      'picturesPath' : './resources/faces/',
-      'jsonPath' : './resources/candidates.json',
+      'picturesPath' : './resources/datasets/frenchpresidents2017/faces/',
+      'jsonPath' : './resources/datasets/frenchpresident2017/candidates.json',
       'picturesExtension' : '.jpg',
       'separators' : {
         'json' : '/',
